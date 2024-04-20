@@ -1,6 +1,6 @@
-a = input("Veuillez entrer un premier nombre: ")
+a = int(input("Veuillez entrer un premier nombre: "))
 
-b = input("Veullez entrer un deuxième nombre: ")
+b = int(input("Veullez entrer un deuxième nombre: "))
 
-print(f"le résultat de l'addition de {a} avec {b} est égal à {int(a) + int(b)}")
+print(f"le résultat de l'addition de {a} avec {b} est égal à {a+b}")
 
